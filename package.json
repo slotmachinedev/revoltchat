@@ -1,0 +1,35 @@
+{
+  "build": {
+    "productName": "Revolt",
+    "appId": "io.github.slotmachinedev.revoltchat",
+    "mac": {
+      "category": "io.github.slotmachinedev.revoltchat.app"
+    }
+  },
+  "name": "revoltchat",
+  "version": "1.0.0",
+  "description": "Revolt is an open source user-first chat platform.",
+  "main": "index.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slotmachinedev/revoltchat.git"
+  },
+  "keywords": [
+    "revolt",
+    "electron"
+  ],
+  "author": "Akìra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slotmachinedev/revoltchat/issues"
+  },
+  "homepage": "https://github.com/slotmachinedev/revoltchat#readme",
+  "devDependencies": {
+    "electron": "^30.0.2",
+    "electron-builder": "^24.13.3"
+  }
+}
